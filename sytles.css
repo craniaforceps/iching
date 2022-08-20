@@ -1,0 +1,66 @@
+body {
+    background-color: rgba(0, 0, 255, 0.745);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headertotal {
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+
+}
+
+.headertitle {
+    display:flex;
+    padding-top:10px;
+}
+
+.headerlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px;
+}
+
+li {
+    display:flex;
+}
+
+.section1 {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section1container {
+    display:flex;
+    background-color:rgba(255, 255, 0, 0.685);
+    flex-direction:column;
+    padding:30px;
+    max-width: 500px;
+}
+
+.ichingsymbol {
+    font-size:500%;
+    margin-bottom:5px;
+}
+
+.ichingtext {
+    display:flex;
+    text-align:justify;
+    max-width: 500px;
+    flex-direction: column;
+    padding:0px;
+    justify-content:center;
+}
+
+.aforismos {
+    display:flex;
+    text-align:left;
+    justify-content:left;
+    margin-top:0px;
+}
+
+sup {
+    font-size:x-small;
+}
